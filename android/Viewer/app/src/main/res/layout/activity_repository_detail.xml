@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:id="@+id/profile_setting_ui">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/relativelayout_style"
+        android:id="@+id/rt_profile_setting">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/repository_details"
+            android:textColor="@color/normal_text_color"
+            android:textSize="18dp"
+            android:id="@+id/tv_profile_setting"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:drawableLeft="@drawable/file_category_back"
+            android:textSize="18dp"
+            android:id="@+id/tv_setting_back"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/normal_text_color" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/repository_detail_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#D0D0D0"
+        android:dividerHeight="0.5dp"
+        android:layout_below="@+id/rt_profile_setting"
+        android:layout_marginBottom="20dp"
+        >
+    </ListView>
+
+</RelativeLayout>

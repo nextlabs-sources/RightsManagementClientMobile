@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_left_nav_addstorage">Add Cloud Storage</string>
+    <string name="home_left_nav_favorite">Favorite</string>
+    <string name="home_left_nav_offline">Offline</string>
+    <string name="home_left_nav_profile">Profile</string>
+    <string name="home_left_nav_home">Home</string>
+    <string name="home_left_nav_setting">Setting</string>
+    <string name="home_left_nav_help">Help</string>
+    <string name="home_left_nav_open">Open</string>
+    <string name="home_left_nav_close">Close</string>
+</resources>

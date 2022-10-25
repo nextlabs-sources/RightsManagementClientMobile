@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/home_account_timedialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#4C4E64"
+        android:textSize="18sp"
+        android:text="@string/set_timeout_dialog"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/home_account_timedialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#4C4E64"
+        android:textSize="12sp"
+        android:text="@string/set_timeout_content"
+        android:gravity="center"
+        android:layout_below="@+id/home_account_timedialog_title"
+        />
+
+    <EditText
+        android:id="@+id/home_account_edittime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/home_account_timedialog_content"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

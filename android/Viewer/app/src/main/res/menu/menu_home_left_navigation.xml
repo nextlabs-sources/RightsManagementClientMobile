@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left_nav_main"
+            android:icon="@drawable/home_left_nav_home_24dp"
+            android:title="@string/home_left_nav_home"/>
+        <item
+            android:id="@+id/left_nav_favorite"
+            android:icon="@drawable/home_left_nav_favorite_24dp"
+            android:title="@string/home_left_nav_favorite" />
+        <item
+            android:id="@+id/left_nav_offline"
+            android:icon="@drawable/home_left_nav_offline_24dp"
+            android:title="@string/home_left_nav_offline" />
+        <item
+            android:id="@+id/left_nav_profile"
+            android:icon="@drawable/home_left_nav_account_24dp"
+            android:title="@string/home_left_nav_profile" />
+    </group>
+
+</menu>

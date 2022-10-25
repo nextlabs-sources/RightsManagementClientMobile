@@ -1,0 +1,360 @@
+/* 
+  Localizable.strings
+  nxrmc
+
+  Created by Kevin on 15/4/28.
+  Copyright (c) 2015年 nextlabs. All rights reserved.
+*/
+
+// Ipad FileList Title
+"IPAD_REPO_LIST_TITLE" = "SkyDRM";
+
+// Tabbar items title
+"TAB_BAR_FILES_TITLE"   = "Home";
+"TAB_BAR_FAV_TITLE"     = "Favorite";
+"TAB_BAR_OFFLINE_TITLE" = "Offline";
+"TAB_BAR_ACCOUNT_TITLE" = "Profile";
+"TAB_BAR_HELP_TITLE"    = "Help";
+
+// No Repo View Title
+"NO_REPO_TITLE"        = "NO Repositories Connected!";
+"NO_REPO_DETAIL"       = "Add repositories like Dropbox, OneDriver, etc \n to view your NXL Protected files here";
+"NO_REPO_BUTTON_TITLE" = " Add Repository ";
+
+// No Select Repo Warning
+"NO_REPO_SELECT_IPAD" = "No repositories were selected, \nyou can click \"SkyDRM\" dropdown on top \nto show your repositories";
+"NO_FILE_IN_FOLDER"   = "This folfder is empty";
+
+// box buttons
+"ALERTVIEW_TITLE" = "SkyDRM";
+"BOX_OK"          = "OK";
+"BOX_CANCEL"      = "Cancel";
+"BOX_DONE"        = "Done";
+
+//network alert info
+"NETWORK_UNREACH_MESSAGE" = "Network connection is required to perform this operation";
+
+//User guide informaiton
+
+"USER_GUIDE_PAGE1TITLE1" = "Welcome to NextLabs Rights Management";
+"USER_GUIDE_PAGE1TITLE2" = "Access, view and share your documents easily";
+
+"USER_GUIDE_PAGE2TITLE1" = "Access documents at work or in the Cloud";
+"USER_GUIDE_PAGE2TITLE2" = "One-stop access to all of your documents";
+
+"USER_GUIDE_PAGE3TITLE1" = "View business and engineering documents";
+"USER_GUIDE_PAGE3TITLE2" = "View Office, PDF, 2D and 3D drawings";
+
+"USER_GUIDE_PAGE4TITLE1" = "Share documents securely";
+"USER_GUIDE_PAGE4TITLE2" = "Protect and share documents with anyone";
+
+// login page
+
+"SIGNINTITLE" = "Sign In";
+
+"TEXTFIELD_USERNAME_PLACEHOLDER" = "Please enter your name";
+"TEXTFIELD_DOMAIN_PLACEHOLDER"   = "Please enter the domain";
+"TEXTFIELD_RMSERVER_PLACEHOLDER" = "Please enter the rmserver";
+"TEXTFIELD_PASSWORD_PLACEHOLDER" = "Please enter your password";
+
+"ERROR_EMPTYUSERNAME" = "Type in user name please!\n (Domain\\User name)";
+"ERROR_EMPTYPASSWORD" = "Type in password please!";
+"ERROR_EMPTYDOMAIN"   = "Type in domain please!";
+"ERROR_EMPTYRMSERVER" = "Type in rmserver please!";
+
+"ERROR_DOMAIN"   = "Invalid domain!";
+"ERROR_PASSWORD" = "Invalid username or password!";
+"ERROR_UNKNOWN"  = "Unknown error!";
+"ERROR_RMSERVER" = "Invalid rmserver address!";
+
+//profile page.
+"SECTION_TITLE" = "PROFILE HISTORY";
+
+//user info page
+"ACCOUNTINFOTITLE"      = "Account Info";
+"ACCOUNTINFONAME"       = "UserName";
+"ACCOUNTINFOEMAIL"      = "E-mail";
+"ACCOUNTINFOTENANTID"   = "Tenant ID";
+
+// slide menu
+"SLIDEMENU_MYACCOUNT"      = "My Account";
+"SLIDEMENU_HELP"           = "Help";
+"SLIDEMENU_MYDOCUMENTS"    = "My Documents";
+"SLIDEMENU_OFFLINE"        = "My Offline";
+"SLIDEMENU_FAVORITE"       = "My Favorite";
+"SLIDEMENU_REPOSITORIES"   = "My Repositories";
+"SLIDEMENU_ADD_REPOSITORY" = "Add Repository";
+
+//right slide file info view
+"TITLE_DETAIL"        = "Detail";
+"RIGHTSTITLE"         = "Rights";
+"RIGHTSSUBTITLE"      = "Read";
+"ACTION_SHARE"        = "Share";
+"ACTION_PROTECT"      = "Protect";
+"ACTION_CLASSIFY"     = "Reclassify";
+"INFO"                = "Info";
+"FILE_INFO_ACCOUNT"   = "Account";
+"FILE_INFO_DRIVETYPE" = "Type";
+"FILE_INFO_LOCATION"  = "Location";
+"FILE_INFO_SIZE"      = "Size";
+"FILE_INFO_MODIFIED"  = "Modified";
+
+"ALERT_MESSAGE_GET_RIGHTS_FAILED" = "Load file rights failed";
+
+"PROTECTANDSHARE_OPERATION_FAILED" = "This operation couldn't be completed, because download file failed, please try again later";
+
+//file Right
+"RIGHT_VIEW"     = "View";
+"RIGHT_EDIT"     = "Edit";
+"RIGHT_PRINT"    = "Print";
+"RIGHT_SHARE"    = "Sharing";
+"RIGHT_OVERLAY"  = "WaterMark";
+
+//adhoc share page;
+
+"Adhoc_Sharing_Title"  = "PROTECT AND SHARE";
+"Adhoc_Protect_Title" = "PROTECT";
+
+"Adhoc_RIGHT_ITEM_TITLE" = "Share";
+"Adhoc_FieldName" = "To:";
+"Adhoc_EmailInputPlaceHolder" = "Add email address";
+"Adhoc_FilePath" = "Apply Digital Rights to:";
+"Adhoc_EmailItem" = "Email";
+"Adhoc_MoreItem" = "More";
+"Adhoc_CancelItem" = "Cancel";
+"Adhoc_People" = "Share the file with:";
+"Adhoc_Can" = "and";
+
+"Adhoc_GET_NXL_INFO_FAILED" = "Get NXL file info failed";
+"Adhoc_SET_AD_POLICY_FAILED" = "Encode file to NXL format failed";
+"Adhoc_ENCRYPT_FILE_FAILED" = "Encrypt file failed";
+"Adhoc_AddPolicy_FAILED" = "Add file policy failed";
+"Adhoc_SET_EMAIL_INFO_ERROR" = "The email address format is incorrect";
+"Adhoc_SET_RIGHT_INFO_ERROR" = "You do not select rights";
+"Adhoc_UPLOAD_SHARING_INFO_ERROR" = "Upload sharing info failed";
+
+
+//Profile page
+"SET_TITLE"       = "Settings";
+"ACCOUNT_TITLE"   = "My Account";
+"ACCOUNT_SIGNOUT" = "Sign Out";
+"HELP_TITLE"      = "Help";
+
+//About Page view
+"VERSION" = "Version";
+
+"ACCOUNT_CONNECTED_SERVICES"     = "CONNECTED REPOSITORIES";
+"RMC_SERVER"                     = "rm_server";
+"RMC_SESSION_TIMEOUT"            = "Session Timeout";
+"RMC_SESSION_TIMEOUT_INPUT_ZERO" = "The value of session timeout can not be zero";
+
+"DAY"       = "day";
+"DAYS"      = "days";
+"HOUR"      = "hour";
+"HOURS"     = "hours";
+"MINUTES"   = "minutes";
+"MINUTE"    = "minute";
+
+"SESSION_NEW_DETAIL"    = "Please enter your new time session in minutes: ";
+"RMC_SERVER_NEW_DETAIL" = "Please enter your new rmc_server address: ";
+"CLEANCACHE"    = "Clean Cache";
+"CACHEFILESIZE" = "Cached file size";
+"SIGNOUTALERTMESSAGE" = "Are you sure you want to sign out?";
+
+//custom filelist page
+"FAVORITE" = "Favorites";
+"OFFLINE"  = "Offlines";
+"DRIVES"   = "drives";
+"ITEMS"    = "items";
+"ALL"      = "All";
+
+//protect page
+"PROTECTERROR"                  = "Protect Error";
+"PROTECTERROR_RENAME"           = "The file with same name exist, please rename the file";
+"PROTECTERRORNOFILEEXIST"       = "Protect action can not complete, file is not exist, please try again later";
+"PROTECTERROR_UPLOAD_FAILED"    = "Protect action can not complete, fail to upload file to cloud repository";
+
+"PROTECTERROR_UPLOADING_FAILED" = "Upload failed";
+"PROTECT_UPLOADING"             = "Uploading...";
+"PROTECT_UPLOADING_SUCCESS"     = "Upload successfully";
+"PROTECT_SAVE_FAILED"           = "Save failed";
+
+// cloudservices page
+"CLOUDSERVICE_DROPBOX"          = "DropBox";
+"CLOUDSERVICE_SHAREPOINTONLINE" = "SharePoint Online";
+"CLOUDSERVICE_SHAREPOINT"       = "SharePoint";
+"CLOUDSERVICE_ONEDRIVE"         = "OneDrive";
+"CLOUDSERVICE_GOOGLEDRIVE"      = "GoogleDrive";
+"CLOUDSERVICE_iCloudDrive"      = "iCloud Drive";
+
+"ADD_A_SERVICE"             = "Add Repository";
+"CONNECT_A_CLOUD_SERVICE"   = "Connect a cloud repository";
+"SYNC_REPO_INOF"            = "Sync Repository Info";
+"NOT_SYNC_YET"              = "Not sync repository info yet";
+
+
+//dropbox error
+"ERROR_NOT_LINKIN_DROPBOX" = "Unlinked in Dropbox, please link in Dropbox";
+"DROPBOX_SIGNIN_ERROR"     = "Binding Dropbox failed, please try again later";
+
+//Google Drive
+"GOOGLEDRIVE_SIGNIN_ERROR" = "Binding GoogleDrive failed, please try again later";
+// Sharepoint
+"Sharepoint_SIGNIN_ERROR" = "Binding SharePoint failed, user name or password is invalid";
+"Sharepoint_SITE_URL_ERROR" = "Binding SharePoint failed, access to site url failed";
+//Sharepoint Online
+"SharepointOnline_SIGNIN_ERROR" = "Binding SharePoint Online failed, user name or password is invalid";
+"SharepointOnline_SITE_URL_ERROR" = "Binding SharePoint Online failed, access to site url failed";
+
+//One Drive error
+"ERROR_NOT_SIGNIN_ONEDRIVE" = "Can not login OneDrive, please check the network and try again";
+"ONEDRIVE_GETUSERINFO_FAIL" = "Binding OneDrive failed, please try again later";
+
+//help page
+"HELPITEM1"  = "Handbook";
+"HELPITEM2"  = "What's New";
+"ONLINEHELP" = "Online Support Forum";
+
+"HANDBOOKInfo_TITLE"     = "Handbook";
+"HANDBOOKInfo_RIGHTS"    = "No Rights";
+"HANDBOOKInfo_FILETYPES" = "Supported file types";
+"HANDBOOKInfo_INTEGRATE" = "Integrate dropbox";
+
+//file menu
+"FILEMENU_SHARE"     = "Share File";
+"FILEMENU_COPY"      = "Copy";
+"FILEMENU_PRINT"     = "Print";
+"FILEMENU_ATTRIBUTE" = "File Attribute";
+"FILEMENU_NIGHTMODE" = "Night Mode";
+
+//file attribute
+"Steward_DESC" = "Document steward has all rights";
+"Steward_DESC_DETAIL" = "As document steward, you have all rights. Here are the rights granted to other users";
+"FILEATTRIBUTE_ITEMTITLE1" = "File Properties";
+"FILEATTRIBUTE_ITEMTITLE2" = "Classification";
+"FILEATTRIBUTE_ITEMTITLE3" = "Rights";
+
+"FILEATTRIBUTE_SAVE"       = "Save";
+"FILEATTRIBUTE_RECLASSIFY" = "Reclassify";
+
+"FILEATTRIBUTE_NAME"       = "File Name";
+"FILEATTRIBUTE_Location"   = "Location";
+"FILEATTRIBUTE_TYPE"       = "File Type";
+"FILEATTRIBUTE_SIZE"       = "File Size";
+"FILEATTRIBUTE_MODIFYTIME" = "Modified";
+
+// connect service
+"SERVICE_CONNECT_ERROR" = "Connect repository failed";
+
+// errors on authen cloud account
+"AUTHEN_ERROR"               = "Authenticate failed";
+"SHAREPOINT_SITE_EMPTYERROR" = "Type in sharepoint site url, please!";
+
+// file content view strings
+
+//rights warning
+"NO_ACCESS_RIGHT" = "You are not authorized to access the file";
+"NO_VIEW_RIGHT" = "You are not authorized to view the file";
+"NO_SHARE_RIGHT" = "You are not authorized to share the file";
+"NO_PRINTING_RIGHT" = "You are not authorized to print the file";
+
+"FAILD_GET_KEY_BLOB" = "Failed to get key blob";
+"FAILED_DECRYPT_NXL_FILE" = "Failed to decrypt file";
+"FAILED_GET_FILE_TAGS" = "Failed to get file tags";
+
+// hint user title and message
+"HINT_USER_MESSAGE"   = "You are attempting to view a file type that is not supported currently";
+"HINT_USER_NO_LABELS" = "Please check if your RMS deployed labels";
+
+// hit user open file pdf in 3D or 2D viewer
+"HINT_USER_OPENPDF_MESSAGE"   = "Please select viewer to open this PDF file";
+"HINT_USER_OPENPDF_BUTTON_2D" = "2D";
+"HINT_USER_OPENPDF_BUTTON_3D" = "3D";
+
+// sort opt
+"SORT_OPT_NAME_ASC" = "Sort by Name";
+"SORT_OPT_NEWEST"   = "Sort by Date";
+"SORT_OPT_REPO"     = "Sort by Repository";
+
+// file content view alert view titile and message
+"ALERTVIEW_MESSAGE_LOADFAIL"            = "File load error";
+"ALERTVIEW_MESSAGE_CONVERT_FILE_FAIL"   = "Convert file failed";
+"ALERTVIEW_MESSAGE_CANNOTOPENFILE"      = "Please check your network and open file again";
+"ALERTVIEW_MESSAGE_NOSUCHFILE"          = "The file has been deleted, please click back button to open other files";
+"ALERTVIEW_MESSAGE_DOWNLOADFAIL"        = "Download file fail, please click back button and open this file again";
+"ALERTVIEW_MESSAGE_DOWNLOAD_CANCELED"   = "Download is cancelled";
+"ALERTVIEW_MESSAGE_DECRYPTFAIL"         = "Decrypt file fail";
+"ALERTVIEW_MESSAGE_GETFILE_FAIL"        = "Failed to load files and folders";
+"ALERTVIEW_MESSAGE_OPENTHIRDFILEFAILED" = "This operation can not be performed, because you are performing add a repository operation, please try again later";
+"ALERTVIEW_MESSAGE_MEMORY_WARNING"      = "The file is too large to be opened in our APP";
+"ALERTVIEW_MESSAGE_GETFILEEXTENSION_FAILED" = "Get file type error";
+"ALERTVIEW_MESSAGE_PRINTING_NOT_SUPPOT" = "Do not support print this format file";
+//MobileSurfaceView button title and error information
+//section 1
+"BUTTON_TITLE_1" = "SS";
+"BUTTON_TITLE_2" = "SM";
+"BUTTON_TITLE_3" = "HL";
+"BUTTON_TITLE_4" = "FR";
+"BUTTON_TITLE_5" = "";
+
+//section 2
+"BUTTON_TITLE_6"  = "X";
+"BUTTON_TITLE_7"  = "Y";
+"BUTTON_TITLE_8"  = "Z";
+"BUTTON_TITLE_9"  = "";
+"BUTTON_TITLE_10" = "";
+
+//alert view text
+"ALERTVIEW_MESSAGE_BINDFAIL" = "HPS App Init failed";
+
+// add service page
+"ALERTVIEW_MESSAGE_MORE_ONEDRIVE" = "We only support one account of Microsoft OneDrive, you can delete the current one and add a new one";
+
+// search bar
+"SEARCH_PLACE_HOLDER" = "Search";
+
+//operation status view, used to show status in content page. e.g: download or covert.
+"DOWNLOADINGFILE" = "Loading...";
+"CONVERTINGFILE"  = "Converting...";
+
+//localized error message
+"ERROR_ACCESS_UNAUTHORIZED_DESC"             = "Access repository failed, please rebind your repository and try again";
+"ERROR_NO_SUCH_FILE_DESC"                    = "Resource not exist or internal server error";
+"ERROR_AUTH_FAILED_DESC"                     = "User authentication failed";
+"ERROR_CONVERT_FILE_FAILED_DESC"             = "Convert file failed";
+"ERROR_CONVERTFILE_CHECKSUM_NOTMATCHED_DESC" = "Checksum not matched when convert file";
+"ERROR_REPO_ACCOUNT_EXISTED"                 = "The repository account has already existed";
+"ERROR_ADD_REPO_ACCOUNT_DISPLAY_NAME_DUMPLICATE" = "The repository dispaly name duplicate";
+"ERROR_ADD_REPO_SYNC_RMS_ERROR"                   = "Error occur when sync add repository info with RMS";
+"ERROR_URL_TRANS_FAILED"                     = "The internet transfer data failed";
+"ERROR_SYNC_REPO_ACCOUNT_NOT_SAME_WITH_RMS"  = "The account you entered is different from RMS";
+"ERROR_DEL_REPO_SYNC_RMS_ERROR"  = "Error occur when sync delete repository info with RMS";
+"ERROR_UPDATE_REPO_SYNC_RMS_ERROR"  = "Error occur when update repository info with RMS";
+
+// Repository info
+"REPO_INFO_TITLE" = "Repository Detail";
+"REPO_INFO" = "REPOSITORY INFORMATION";
+"SHAREPOINT_REPO_URL" = "Site URL";
+"REPO_TYPE" = "Type";
+"USER_NAME" = "User Name";
+"EMAIL" = "Email";
+"TOTAL_SPACE" = "Total Space";
+"USED_SPACE" = "Used Space";
+"LOCAL_USAGE" = "LOCAL USAGE";
+"OFFLINE_SIZE" = "Offline Size";
+"CACHE_SIZE" = "Cache Size";
+"TOTAL_SIZE" = "Total Size";
+"DELETE_REPO" = "Delete Repository";
+"INPUT_REPO_NAME" = "Input repository name";
+
+"DELETE_CACEH_WARNING" = "Are you sure want to delete cache files?";
+
+// Swipe to change file
+"SWIPE_NO_MORE_FILE_TO_SHOW" = "No more file to view";
+"DELETE_REPO_WARNING" = "Are you sure want to delete the repository?";
+
+// Config RMS ViewController
+"RESET_TO_DEFAULT_RMS" = "Reset";
+"RMS_CONFIG" = "RMS";
+"RMS_URL" = "RMS url";
+"TENANT_NAME" = "tenant name";

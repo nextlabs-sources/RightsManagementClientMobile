@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PDF_select">Pick PDF format to view</string>
+    <string-array name="pdf_format">
+        <item>2D PDF</item>
+        <item>3D PDF</item>
+    </string-array>
+</resources>

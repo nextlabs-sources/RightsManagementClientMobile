@@ -1,0 +1,6 @@
+<resources>
+    <style name="Animations_PopUpMenu_Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+</resources>

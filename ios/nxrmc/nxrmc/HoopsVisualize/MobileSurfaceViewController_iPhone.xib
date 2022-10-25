@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MobileSurfaceViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="MobileSurfaceView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                    <rect key="frame" x="256" y="100" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="aMS-dL-QZh"/>
+                        <constraint firstAttribute="width" constant="44" id="ytn-UM-2Qm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="1" eventType="touchUpInside" id="w5K-Wf-Mhl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                    <rect key="frame" x="256" y="151" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="yxZ-bX-z1b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="1" eventType="touchUpInside" id="mfc-w1-Cp5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                    <rect key="frame" x="256" y="202" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="DoF-dV-PqT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="1" eventType="touchUpInside" id="B1P-n9-Fpg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27">
+                    <rect key="frame" x="256" y="253" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="isk-Bj-OPX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="1" eventType="touchUpInside" id="GdH-Tw-khI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncR-pc-HwA">
+                    <rect key="frame" x="256" y="304" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="wrg-NG-mbd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="1" eventType="touchUpInside" id="D4d-RK-AzH"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fc6-bO-jyS" userLabel="segControl">
+                    <rect key="frame" x="16" y="10" width="290" height="29"/>
+                    <segments>
+                        <segment title="Operators"/>
+                        <segment title="Modes"/>
+                        <segment title="Cutting Plane"/>
+                    </segments>
+                    <connections>
+                        <action selector="valueChanged:" destination="1" eventType="valueChanged" id="uTH-4p-izc"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="12" secondAttribute="trailing" constant="20" symbolic="YES" id="1Vf-MG-1hT"/>
+                <constraint firstItem="23" firstAttribute="top" secondItem="18" secondAttribute="bottom" constant="8" symbolic="YES" id="1bb-Ok-dk2"/>
+                <constraint firstItem="ncR-pc-HwA" firstAttribute="trailing" secondItem="27" secondAttribute="trailing" id="2gW-nU-bTt"/>
+                <constraint firstItem="27" firstAttribute="leading" secondItem="23" secondAttribute="leading" id="4vE-C5-iMs"/>
+                <constraint firstItem="ncR-pc-HwA" firstAttribute="top" secondItem="27" secondAttribute="bottom" constant="8" id="6w9-hf-e3e"/>
+                <constraint firstItem="23" firstAttribute="trailing" secondItem="18" secondAttribute="trailing" id="BIF-Ty-32c"/>
+                <constraint firstItem="27" firstAttribute="top" secondItem="23" secondAttribute="bottom" constant="8" symbolic="YES" id="DGN-t1-3PC"/>
+                <constraint firstItem="23" firstAttribute="trailing" secondItem="27" secondAttribute="trailing" id="FSd-6J-JKe"/>
+                <constraint firstItem="ncR-pc-HwA" firstAttribute="leading" secondItem="27" secondAttribute="leading" id="LzQ-iH-BTP"/>
+                <constraint firstItem="fc6-bO-jyS" firstAttribute="top" secondItem="1" secondAttribute="top" constant="10" id="b8K-z0-cCX"/>
+                <constraint firstItem="18" firstAttribute="top" secondItem="12" secondAttribute="bottom" constant="8" symbolic="YES" id="fva-tO-8P6"/>
+                <constraint firstItem="12" firstAttribute="top" secondItem="1" secondAttribute="top" constant="100" id="ixz-zt-zxq"/>
+                <constraint firstItem="18" firstAttribute="leading" secondItem="23" secondAttribute="leading" id="jNZ-Re-o9o"/>
+                <constraint firstItem="18" firstAttribute="leading" secondItem="12" secondAttribute="leading" id="rGP-vx-Zuo"/>
+                <constraint firstAttribute="centerX" secondItem="fc6-bO-jyS" secondAttribute="centerX" constant="-1" id="tdQ-Tu-Y22"/>
+                <constraint firstItem="12" firstAttribute="trailing" secondItem="18" secondAttribute="trailing" id="xml-y7-Q6O"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <connections>
+                <outlet property="button1" destination="12" id="tPa-8F-uQc"/>
+                <outlet property="button2" destination="18" id="8Sg-ZI-Jwp"/>
+                <outlet property="button3" destination="23" id="JYI-Ig-Xv5"/>
+                <outlet property="button4" destination="27" id="Fe3-gG-vkL"/>
+                <outlet property="button5" destination="ncR-pc-HwA" id="1Bq-Ce-3Fb"/>
+                <outlet property="segControl" destination="fc6-bO-jyS" id="S8F-dC-Eds"/>
+            </connections>
+        </view>
+    </objects>
+</document>

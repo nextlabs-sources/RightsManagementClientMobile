@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_display">
+        <item>Protect</item>
+        <item>Share</item>
+        <item>Print</item>
+        <item>Property</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">PASSWORD</string>
+    <string name="prompt_rms_path">RM SERVER</string>
+    <string name="prompt_rms_path_prefix">https://</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_add_account">ADD ACCOUNT</string>
+    <string name="cancel_sign_in_short">Cancel</string>
+    <string name="load_profile">Load profile from history</string>
+
+    <string name="error_empty_username">Type in username please</string>
+    <string name="error_invalid_username">Invalid username or password</string>
+    <string name="error_empty_domain">Type in domain please</string>
+    <string name="error_invalid_domain">Invalid domain</string>
+    <string name="error_empty_password">Type in password please</string>
+    <string name="error_invalid_password">Invalid username or password</string>
+    <string name="error_empty_rmserver">Type in RMS address please</string>
+    <string name="error_invalid_rmserver">Invalid RMS address</string>
+    <string name="error_no_content">The operation couldn\'t be completed.(rest api fail error 204.)</string>
+    <string name="error_no_name_or_uid">Can\'t get the UserPrincipalName or uid!</string>
+    <string name="error_not_get_SupportedCadFormats">Can\'t get needed converted 3D formats from heartbeat!</string>
+    <string name="error_sharePoint_login">Binding SharePoint failed, please try again later.</string>
+    <string name="error_sharePointOnline_login">Login SharePoint Online failed, please check your input and retry it again.</string>
+    <string name="error_sharePointOnline_site_url">Binding SharePoint Online failed, access to site url failed.</string>
+
+    <string name="error_network_unreach_msg">Network connection is required to perform this operation</string>
+
+    <string name="error_not_input_url">Please enter the URL</string>
+    <string name="error_not_input_userName">Please enter your name</string>
+    <string name="error_not_input_password">Please enter your password</string>
+</resources>

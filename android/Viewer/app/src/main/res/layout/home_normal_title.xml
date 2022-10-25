@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/home_activity_titlebk"
+    android:gravity="center_vertical" >
+
+    <ImageButton
+        android:id="@+id/home_normal_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dp"
+        android:layout_marginRight="5.0dp"
+        android:gravity="center"
+        android:src="@drawable/home_title_back"
+        android:background="@android:color/transparent"/>
+
+
+    <TextView
+        android:id="@+id/home_normal_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/account_title_name"
+        android:textColor="#4C4E64"
+        android:textSize="18sp" />
+
+</RelativeLayout>

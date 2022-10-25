@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/favorite_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <include layout="@layout/home_normal_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/favorite_title_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favorite_title_layout">
+        <RelativeLayout
+            android:id="@+id/favorite_category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:background="@drawable/home_activity_titlebk"
+            android:visibility="gone"
+            >
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:background="@drawable/category_back"
+                android:gravity="start|center_vertical"
+                android:drawableLeft="@drawable/back"
+                android:drawableStart="@drawable/back"
+                android:text="back"
+                android:clickable="true"
+                android:textColor="#003399"
+                />
+
+            <TextView
+                android:id="@+id/categoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/favorite_service_count"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFF68F"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+    </RelativeLayout>
+
+
+    <com.imageableList.NXFileListView
+        android:id="@+id/favorite_nxfile_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+        android:dividerHeight="0.5dp"
+        android:layout_below="@id/favorite_title_below"
+        />
+</RelativeLayout>

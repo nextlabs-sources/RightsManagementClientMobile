@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/offline_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <include layout="@layout/home_normal_title" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/offline_service_count"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/offline_title_layout"
+        android:background="#effa75"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+    <com.imageableList.NXFileListView
+        android:id="@+id/offline_nxfile_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+        android:dividerHeight="0.5dp"
+        android:layout_below="@id/offline_service_count"
+        />
+
+</RelativeLayout>

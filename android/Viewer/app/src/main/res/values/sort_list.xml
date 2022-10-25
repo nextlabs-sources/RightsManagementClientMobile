@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_display">
+        <item>Name(A->Z)</item>
+        <item>Name(Z->A)</item>
+        <item>Newest</item>
+        <item>Oldest</item>
+        <item>Largest</item>
+        <item>Smallest</item>
+    </string-array>
+</resources>

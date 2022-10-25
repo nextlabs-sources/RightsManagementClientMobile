@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 4.3">
+    <entity name="BoundService" representedClassName="NXBoundService" syncable="YES">
+        <attribute name="service_account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_account_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_account_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_isAuthed" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="service_selected" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="service_type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CacheFile" representedClassName="NXCacheFile" syncable="YES">
+        <attribute name="access_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cache_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cache_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cache_size" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="cached_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="favorite_flag" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="offline_flag" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="safe_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="LogIndex" representedClassName="NXLogIndex" syncable="YES">
+        <attribute name="log_index" optional="YES" attributeType="Integer 32" defaultValueString="1" syncable="YES"/>
+    </entity>
+    <entity name="TableMaxIndex" representedClassName="NXTableMaxIndex" syncable="YES">
+        <attribute name="max_index" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="table_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BoundService" positionX="-36" positionY="45" width="128" height="180"/>
+        <element name="CacheFile" positionX="-18" positionY="90" width="128" height="210"/>
+        <element name="LogIndex" positionX="-36" positionY="117" width="128" height="60"/>
+        <element name="TableMaxIndex" positionX="-54" positionY="36" width="128" height="73"/>
+    </elements>
+</model>

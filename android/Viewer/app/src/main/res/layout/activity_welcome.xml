@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ViewFlipper
+        android:id="@+id/Viewflipper"
+        android:layout_marginBottom = "100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ViewFlipper>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp" >
+
+        <View
+            android:id="@+id/dot_0"
+            android:layout_width="6dip"
+            android:layout_height="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/dot_focused"
+            />
+        <View
+            android:id="@+id/dot_1"
+            android:layout_width="6dip"
+            android:layout_height="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/dot_normal"
+            />
+        <View
+            android:id="@+id/dot_2"
+            android:layout_width="6dip"
+            android:layout_height="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/dot_normal"
+            />
+        <View
+            android:id="@+id/dot_3"
+            android:layout_width="6dip"
+            android:layout_height="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/dot_normal"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_tv"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/welcome_arrow"
+            android:layout_toStartOf="@+id/welcome_arrow"
+            android:layout_marginEnd="34dp" />
+
+        <ImageView
+            android:id="@+id/welcome_arrow"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:src="@drawable/right_arrow1"
+            android:layout_alignTop="@+id/button_login"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

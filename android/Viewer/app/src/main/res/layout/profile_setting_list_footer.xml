@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_setting_footer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent"
+    >
+
+    <Button
+        android:id="@+id/account_add_service"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/add_service"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="@color/text_black"
+        android:drawableLeft="@drawable/home_account_add"
+        android:drawableStart="@drawable/home_account_add"
+        android:drawablePadding="12dp"
+        android:background="@drawable/home_item_whitebk"
+        />
+
+    <RelativeLayout
+        android:id="@+id/profile_clean_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/account_add_service"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/home_item_whitebk"
+        >
+        <TextView
+            android:id="@+id/profile_clean_cache"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/clean_cache"
+            android:textSize="18sp"
+            android:textColor="@color/text_black"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/profile_cleanButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/home_session_forward"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

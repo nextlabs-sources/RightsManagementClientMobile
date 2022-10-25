@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:minHeight="70dip">
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="42dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/item_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dip"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/checkImage"
+            android:layout_toStartOf="@+id/checkImage" />
+
+        <TextView
+            android:id="@+id/item_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dip"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/checkImage"
+            android:layout_toStartOf="@+id/checkImage" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/checkImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:visibility="invisible"
+        android:src="@drawable/checkmark_32" />
+
+</RelativeLayout>

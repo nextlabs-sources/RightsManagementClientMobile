@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/home_content_activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--main content view -->
+        <include layout="@layout/home_content_main" />
+
+        <!--the navigation drawer-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/home_left_navigationview"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/home_left_nav_header"
+            app:itemIconTint="@color/selector_nav_menu_textcolor"
+            app:itemTextColor="@color/selector_nav_menu_textcolor"
+            app:menu="@menu/menu_home_left_navigation" />
+    </android.support.v4.widget.DrawerLayout>
+    <!--Files list for mode of main,favorite and off depends it-->
+    <!--why? pull out File-details panel from right edge, once touch out-space of the panel-->
+    <!--hide the panel it self-->
+    <FrameLayout
+    android:id="@+id/home_alpha_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:visibility="gone">
+    </FrameLayout>
+    <!--Hold place for file-detail panel-->
+    <RelativeLayout
+        android:id="@+id/home_rightslide_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:visibility="invisible">
+
+        <include layout="@layout/home_rightslide" />
+    </RelativeLayout>
+</RelativeLayout>

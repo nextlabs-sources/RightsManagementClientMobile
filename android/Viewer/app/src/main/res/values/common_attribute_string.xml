@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attribute_location">Location</string>
+    <string name="attribute_modify_time">Modified</string>
+    <string name="attribute_file_size">File Size</string>
+    <string name="attribute_file_name">File Name</string>
+    <string name="attribute_file_type">File Type</string>
+</resources>

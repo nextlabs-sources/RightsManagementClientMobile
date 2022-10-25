@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:id="@+id/profile_help_ui">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/relativelayout_style"
+        android:id="@+id/rt_help_setting">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textColor="@color/normal_text_color"
+            android:textSize="18sp"
+            android:id="@+id/tv_profile_help"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:drawableLeft="@drawable/file_category_back"
+            android:textSize="18sp"
+            android:id="@+id/tv_help_back"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/normal_text_color" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ImageView
+            android:id="@+id/help_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/nxl_icon"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/help_textview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_log"
+            android:layout_below="@+id/help_image"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/help_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/help_textview1"
+            android:text="@string/version_"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/help_textview3"
+            android:layout_below="@+id/help_textview2"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0099ff"
+            android:text="@string/help_contact_us"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/help_textview4"
+
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help_company_name"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

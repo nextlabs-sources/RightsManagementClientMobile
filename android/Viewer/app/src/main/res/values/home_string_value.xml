@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_title">NextLabs</string>
+    <string name="home_action_search">Search</string>
+    <string name="home_action_sort">Sort</string>
+
+    <string name="name_sort">Sort By Name</string>
+    <string name="time_sort">Sort By Date</string>
+    <string name="driver_sort">Sort By Repository</string>
+
+    <string name="one_drive_bind_multiple">We only support one account of Microsoft OneDrive, you can delete the current one and add a new one.</string>
+    <string name="normal_drive_bind_multiple">The repository account has already existed.</string>
+    <string name="repo_had_exists">The repository account has already existed.</string>
+    <string name="repo_bind_failed">Bind the repository failed.</string>
+    <string name="onedrive_repo_bind_failed">Binding OneDrive failed, please try again later.</string>
+    <string name="onedrive_repo_without_network">Network connection is required to perform this operation </string>
+    <string name="repo_update_failed">Access repository failed, please rebind your repository and try again</string>
+</resources>

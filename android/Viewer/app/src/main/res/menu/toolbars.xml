@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_operators"
+        android:title="@string/operators"
+        android:showAsAction="ifRoom|withText"
+        />
+    
+    <item
+        android:id="@+id/menu_modes"
+        android:title="@string/modes"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/menu_user_code"
+        android:title="@string/user_code"
+        android:showAsAction="ifRoom|withText"
+        />
+</menu>

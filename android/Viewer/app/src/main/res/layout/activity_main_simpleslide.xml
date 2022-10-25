@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FF53B5B7"
+    android:id="@+id/slidepup">
+
+    <TextView
+        android:id="@+id/histroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF53B5B7"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="20.0dip"
+        android:drawableLeft="@drawable/home1"
+        android:text="My Documents"
+        android:textColor="#FF000000"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:id="@+id/slidedocument"
+        android:layout_below="@+id/histroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF53B5B7"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="15.0dip"
+        android:drawableLeft="@drawable/home2"
+        android:text="Viewer"
+        android:textColor="#FF000000"
+        android:textSize="15.0sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slidedocument"
+        android:orientation="vertical"
+        android:id="@+id/testnewadd">
+        <TextView
+            android:id="@+id/MyAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF53B5B7"
+            android:clickable="true"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/myaccount"
+            android:textColor="#FF000000"
+            android:textSize="15.0sp"
+            android:layout_above="@+id/Help"/>
+
+        <TextView
+            android:id="@+id/Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF53B5B7"
+            android:clickable="true"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/help"
+            android:textColor="#FF000000"
+            android:textSize="15.0sp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

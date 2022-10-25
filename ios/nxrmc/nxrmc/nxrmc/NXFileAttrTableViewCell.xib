@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="attrCell" id="2ht-jv-wmb" customClass="NXFileAttrTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2ht-jv-wmb" id="DFL-ju-ZZc">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modified" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-19-r44">
+                        <rect key="frame" x="18" y="11" width="78" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="78" id="nzR-Wj-LZ7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test.docx.nxl" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-ZX-Zj3">
+                        <rect key="frame" x="104" y="11" width="198" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fec-ZX-Zj3" firstAttribute="leading" secondItem="jVp-19-r44" secondAttribute="trailing" constant="8" id="3Ia-HF-gsD"/>
+                    <constraint firstAttribute="trailing" secondItem="Fec-ZX-Zj3" secondAttribute="trailing" constant="18" id="5Rv-cc-vT1" userLabel="trailing = Info Value.trailing + 23"/>
+                    <constraint firstAttribute="bottom" secondItem="jVp-19-r44" secondAttribute="bottom" constant="11" id="9Ih-Az-8K2"/>
+                    <constraint firstItem="jVp-19-r44" firstAttribute="top" secondItem="DFL-ju-ZZc" secondAttribute="top" constant="11" id="N0S-q9-tEh"/>
+                    <constraint firstAttribute="bottom" secondItem="Fec-ZX-Zj3" secondAttribute="bottom" constant="11" id="NgD-IR-23E"/>
+                    <constraint firstItem="jVp-19-r44" firstAttribute="leading" secondItem="DFL-ju-ZZc" secondAttribute="leading" constant="18" id="Zyj-bH-f5J" userLabel="Info Name.leading = leading + 23"/>
+                    <constraint firstItem="Fec-ZX-Zj3" firstAttribute="top" secondItem="DFL-ju-ZZc" secondAttribute="top" constant="11" id="kPc-ZE-nle"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="infoName" destination="jVp-19-r44" id="dL5-Sy-lMr"/>
+                <outlet property="infoValue" destination="Fec-ZX-Zj3" id="22b-Ul-Dkq"/>
+            </connections>
+            <point key="canvasLocation" x="360" y="280"/>
+        </tableViewCell>
+    </objects>
+</document>

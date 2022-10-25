@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_nextlabs">NextLabs</string>
+
+    <string name="pull_refresh">Pull-to-refresh</string>
+    <string name="last_update">Last update</string>
+    <string name="add">Add</string>
+    <string name="more">More</string>
+
+    <string name="home_title_name">NextLabs</string>
+
+    <string name="favorite_title_name">Favorite</string>
+    <string name="offline_title_name">Offline</string>
+    <string name="account_title_name">Account</string>
+
+    <string name="account_info">Account Info</string>
+    <string name="add_services">Add Service</string>
+    <string name="clean_cache">Clean Cache</string>
+    <string name="account_logout">Logout</string>
+    <string name="set_timeout_dialog">Session Timeout</string>
+    <string name="set_timeout_content">Please enter your new time session in minutes:</string>
+    <string name="timeout_okay">OK</string>
+    <string name="timeout_cancel">Cancel</string>
+
+    <string name="account_cancel">Cancel</string>
+    <string name="account_ok">OK</string>
+    <string name="account_minutes">minutes</string>
+    <string name="account_day">day</string>
+    <string name="account_days">days</string>
+    <string name="account_hour">hour</string>
+    <string name="account_hours">hours</string>
+    <string name="account_unlink">Unlink</string>
+
+    <string name="help_title">Help</string>
+    <string name="help_handbook">Handbook</string>
+    <string name="help_new">What\'s new</string>
+    <string name="help_online">Online Support Forum</string>
+
+    <string name="account_username">UserName</string>
+    <string name="account_domain">Domain</string>
+    <string name="account_rmserver">Rmserver</string>
+
+    <string name="category_back">Back</string>
+    <string name="empty_folder">Empty folder</string>
+    <string name="no_repo">No Repositories Connected!</string>
+    <string name="search_no_result">No result</string>
+    <string name="info_nullrepo">NO Repositories Connected!</string>
+    <string name="info_notifyrepo">Add repositories like Dropbox, OneDriver, and so on to view your NXL Protected files here.</string>
+    <string name="info_addrepo">ADD A REPOSITORY</string>
+
+    <string name="clean_cache_title">Clean Cache</string>
+    <string name="clean_cache_content">Cache Size:</string>
+    <string name="waiting">Waiting...</string>
+</resources>

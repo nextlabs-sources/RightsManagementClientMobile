@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color_primary">#FFFFFF</color>
+    <color name="main_color_primary_dark">@android:color/darker_gray</color>
+    <color name="main_color_accent">@android:color/holo_blue_light</color>
+    <color name="normal_text_color">#4C4E64</color>
+    <color name="normal_text_blue">#3498db</color>
+    <color name="sub_text_color">#5F5B67</color>
+    <color name="sub_text_gray">#A5A6B1</color>
+    <color name="list_sub_header">#F8F8FD</color>
+    <color name="normal_background">#F8F8FD</color>
+    <color name="main_float_actionbtn_ripple">@android:color/holo_red_dark</color>
+    <color name="main_float_actionbtn_tint">@android:color/holo_red_light</color>
+    <color name="main_black_gray">#6D6D6D</color>
+    <color name="main_blue_light">#3F56B5</color>
+    <color name="main_blue_dark">#30459E</color>
+
+    
+    
+    <color name="original_background">#ffffffff</color>
+    <color name="pressed_color">#FFE4C4</color>
+    <color name="text_gray">#A5A6B1</color>
+    <color name="text_black">#4C4E64</color>
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="canvas">#404040</color>
+    <color name="toolbar">#C0000000</color>
+    <color name="page_indicator">#C0202020</color>
+    <color name="busy_indicator">#C0202020</color>
+    <color name="button_normal">#00000000</color>
+    <color name="button_pressed">#FF2572AC</color>
+    <color name="text_normal">#FFFFFF</color>
+    <color name="text_pressed">#FFFFFF</color>
+    <color name="text_border_normal">#000000</color>
+    <color name="text_border_pressed">#2572AC</color>
+    <color name="text_border_focused">#000000</color>
+    <color name="seek_thumb">#2572AC</color>
+    <color name="seek_progress">#FFFFFF</color>
+</resources>

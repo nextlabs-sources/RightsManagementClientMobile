@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Strings related to welcome -->
+    <string name="welcome_page1_tv1">Welcome to Nextlabs</string>
+    <string name="welcome_page1_tv2">Rights Management</string>
+    <string name="welcome_page1_tv3">Access, view and share your</string>
+    <string name="welcome_page1_tv4">documents easily</string>
+
+    <string name="welcome_page2_tv1">Access documents at work</string>
+    <string name="welcome_page2_tv2">or in the cloud</string>
+    <string name="welcome_page2_tv3">One-stop access to all of</string>
+    <string name="welcome_page2_tv4">your documents</string>
+
+    <string name="welcome_page3_tv1">View business and engineering</string>
+    <string name="welcome_page3_tv2">documents</string>
+    <string name="welcome_page3_tv3">View Office, PDF, 2D and 3D</string>
+    <string name="welcome_page3_tv4">drawings</string>
+
+    <string name="welcome_page4_tv1">Share documents securely</string>
+    <string name="welcome_page4_tv2">Protect and share</string>
+    <string name="welcome_page4_tv3">documents with anyone</string>
+
+    <string name="sign_in_tv">SIGN-IN</string>
+
+</resources>

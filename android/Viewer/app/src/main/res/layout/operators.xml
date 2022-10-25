@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/orbitButton"
+        android:onClick="toolbarButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_orbit"
+        android:contentDescription="@string/orbit_button"
+        />
+
+    <ImageButton
+        android:id="@+id/zoomAreaButton"
+        android:onClick="toolbarButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/orbitButton"
+        android:src="@drawable/ic_zoom_area"
+        android:contentDescription="@string/zoom_area_button"
+        />
+
+    <ImageButton
+        android:id="@+id/selectButton"
+        android:onClick="toolbarButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zoomAreaButton"
+        android:src="@drawable/ic_select_point"
+        android:contentDescription="@string/select_button"
+        />
+
+    <ImageButton
+        android:id="@+id/selectAreaButton"
+        android:onClick="toolbarButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/selectButton"
+        android:src="@drawable/ic_zoom_area"
+        android:contentDescription="@string/select_area_button"
+        />
+    
+    <ImageButton
+        android:id="@+id/flyButton"
+        android:onClick="toolbarButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/selectAreaButton"
+        android:src="@drawable/ic_fly"
+        android:contentDescription="@string/fly_button"
+        />
+
+</RelativeLayout>

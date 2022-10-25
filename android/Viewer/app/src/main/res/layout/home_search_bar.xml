@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45.0dip"
+    android:background="@android:color/darker_gray"
+    android:gravity="center_vertical" >
+    <phone.com.nextlabs.homeActivityWidget.SearchEditText
+        android:id="@+id/home_search_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginStart="10.0dp"
+        android:layout_toLeftOf="@+id/home_search_exit"
+        android:layout_toStartOf="@+id/home_search_exit"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/home_search_corner"
+        android:drawableLeft="@drawable/home_search_gray"
+        android:drawableStart="@drawable/home_search_gray"
+        android:drawablePadding="10dp"
+        android:textColor="#4C4E64"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_centerVertical="true"
+        android:hint=" File search"
+        android:imeOptions="actionSearch"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/home_search_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:src="@drawable/home_search_exit"
+        android:background="@android:color/transparent"/>
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nextlabs.viewer"
+    android:sharedUserId="com.nextlabs">
+
+    <!-- App needs to send current device name to RMS -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PROFILE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_CONTACTS" /> -->
+    <!-- <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" /> -->
+    <!-- <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" /> -->
+
+
+    <!-- App needs to download files from cloud to the external storage, set on Read&Write rights -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- App must get access to Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- App needs to check status of network to determine to get result of REST API -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    77
+    <uses-permission android:name="com.google.android.providers.gmail.permission.READ_GMAIL" />
+    <uses-permission android:name="com.google.android.providers.gmail.permission.WRITE_GMAIL" />
+    <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" />
+    <uses-permission android:name="com.google.android.gm.permission.WRITE_GMAIL" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <application
+        android:name="appInstance.ViewerApp"
+        android:anyDensity="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- Home Activity: Main Page For All -->
+        <activity
+            android:name="phone.com.nextlabs.viewer.HomeContentActivity"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:mimeType="*/*" />
+                <data android:scheme="file" />
+                <!-- for Gmail preview -->
+                <data android:scheme="content" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name="phone.com.nextlabs.viewer.NewLoginActivity"
+            android:label="@string/title_activity_new_login" />
+        <!-- SupportedCloud -->
+        <activity
+            android:name="phone.com.nextlabs.viewer.SupportedCloud"
+            android:label="@string/title_activity_supported_cloud" />
+
+        <!-- internal DropBox client2 , Do NOT change any files -->
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <data android:scheme="db-7iw0a6cmfshsxxk" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- To Render Docuemt's content onto Display -->
+        <activity
+            android:name="phone.com.nextlabs.viewer.ViewFileActivity"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.NXVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="phone.com.nextlabs.viewer.HelpUIActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="appInstance.remoteRepo.sharepoint.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="appInstance.remoteRepo.sharepointonline.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.ClassifyActivity"
+            android:label="@string/title_activity_classify" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.Profileinfo_commonattributeActivity"
+            android:label="@string/title_activity_profileinfo_commonattribute"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.Profileinfo_rightsActivity"
+            android:label="@string/title_activity_profileinfo_rights"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.WelcomeActivity"
+            android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.artifex.mupdfdemo.MuPDFActivity"
+            android:label="@string/title_activity_mupdf" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.ProfileSettingActivity"
+            android:label="@string/title_activity_profile_setting" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.ProfileAccountActivity"
+            android:label="@string/title_activity_profile_account" />
+        <activity
+            android:name="phone.com.nextlabs.viewer.RepositoryDetailActivity"
+            android:label="@string/title_activity_repository_detail" />
+        <activity android:name="phone.com.nextlabs.viewer.ProtectActivity"></activity>
+    </application>
+
+</manifest>

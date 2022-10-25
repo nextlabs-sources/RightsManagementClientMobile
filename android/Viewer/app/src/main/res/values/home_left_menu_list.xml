@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="left_menu_name">
+        <item>My Drive</item>
+        <item>Favorite</item>
+        <item>Offline</item>
+        <item>Account</item>
+        <item>Help</item>
+    </string-array>
+
+    <array name="left_menu_thumb">
+        <item>@drawable/home_leftmenu_cloud</item>
+        <item>@drawable/home_leftmenu_favorite</item>
+        <item>@drawable/home_leftmenu_offline</item>
+        <item>@drawable/home_leftmenu_account</item>
+        <item>@drawable/home_leftmenu_help</item>
+    </array>
+
+    <string name="left_menu_adddrive">Add Drive</string>
+
+    <string name="left_menu_mydrive">My Drive</string>
+    <string name="left_menu_favorite">Favorite</string>
+    <string name="left_menu_offline">Offline</string>
+    <string name="left_menu_account">Account</string>
+    <string name="left_menu_help">Help</string>
+    <string name="left_menu_setting">Setting</string>
+</resources>

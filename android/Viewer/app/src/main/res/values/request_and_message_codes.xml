@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- start an activity to get an new account-->
+    <integer name="REQ_PICK_A_CLOUD_SERVICE">0x0001</integer>
+    <string name="PICKED_CLOUD_NAME">PICKED_CLOUD_NAME</string>
+    <!-- end -->
+
+    <!-- start account activity to retrive an linked account-->
+    <integer name="REQ_PICK_AN_ACCOUNT_FROM_ACCOUNT_ACTIVITY">0x0002</integer>
+    <string name="PICKED_ACCOUNT_INFO">PICKED_ACCOUNT_INFO</string>
+    <!-- end -->
+</resources>

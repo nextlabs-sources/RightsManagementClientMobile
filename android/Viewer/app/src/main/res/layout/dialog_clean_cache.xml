@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_clean_cache"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ly_clean_cache_child"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bg_timeout_dialog_selector"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_share_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center_vertical"
+            android:text="@string/clean_cache_title"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_cache_content"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop = "10dp"
+            android:text="@string/clean_cache_content"
+            android:textSize = "18sp"
+            android:textColor="@color/text_black"
+            android:gravity="center"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:layout_marginBottom="21dip">
+            <TextView
+                android:id="@+id/btn_sure"
+                android:layout_width="77dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timeout_okay"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@android:color/holo_red_light"/>
+            <TextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="77dp"
+                android:layout_height="33dp"
+                android:layout_toLeftOf="@+id/btn_sure"
+                android:layout_toStartOf="@+id/btn_sure"
+                android:text="@string/timeout_cancel"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

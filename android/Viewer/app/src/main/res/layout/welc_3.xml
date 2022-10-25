@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <commonUtils.ScrollViewEx android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="48dp"
+        android:layout_weight="0.42">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="237dp">
+
+            <ImageView
+                android:id="@+id/welcomPage3_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/welcome_img2"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/welcome_page3_textview1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_page3_tv1"
+                android:layout_below="@+id/welcomPage3_image"
+                android:layout_marginTop="80dp"
+                android:gravity="center_horizontal"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/welcome_page3_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/welcome_page3_textview1"
+                android:text="@string/welcome_page3_tv2"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/welcome_page3_textview3"
+                android:layout_below="@+id/welcome_page3_textview2"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0099ff"
+                android:text="@string/welcome_page3_tv3"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/welcome_page3_textview4"
+                android:layout_below="@+id/welcome_page3_textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0099ff"
+                android:text="@string/welcome_page3_tv4"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </commonUtils.ScrollViewEx>
+
+</LinearLayout>

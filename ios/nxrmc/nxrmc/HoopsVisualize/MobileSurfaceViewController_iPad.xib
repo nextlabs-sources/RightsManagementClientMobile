@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8" customClass="MobileSurfaceView">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99">
+                    <rect key="frame" x="704" y="100" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="CIH-rK-pTP"/>
+                        <constraint firstAttribute="width" constant="44" id="hky-kY-KJc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="8" eventType="touchUpInside" id="zEX-Rf-6AJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="103">
+                    <rect key="frame" x="704" y="151" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="Iq8-mt-MpW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="8" eventType="touchUpInside" id="WZR-AR-qi7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="108">
+                    <rect key="frame" x="704" y="202" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="n9Q-8R-gnf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="8" eventType="touchUpInside" id="bgP-Ke-hOv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="112">
+                    <rect key="frame" x="704" y="253" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="Ggj-6r-ZhM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="8" eventType="touchUpInside" id="9Pb-dT-CyK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNk-yY-Faz">
+                    <rect key="frame" x="704" y="304" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="kiZ-u8-4tj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="8" eventType="touchUpInside" id="NDw-sU-6z8"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="w2I-hi-eXx">
+                    <rect key="frame" x="245" y="69" width="278" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="278" id="cr0-y4-5oM"/>
+                        <constraint firstAttribute="height" constant="28" id="j72-jk-Wrr"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Operators"/>
+                        <segment title="Modes"/>
+                        <segment title="Cutting Plane"/>
+                    </segments>
+                    <connections>
+                        <action selector="valueChanged:" destination="8" eventType="valueChanged" id="nQg-O8-wUW"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jNk-yY-Faz" firstAttribute="top" secondItem="108" secondAttribute="bottom" constant="59" id="0Wg-U0-W7p"/>
+                <constraint firstItem="w2I-hi-eXx" firstAttribute="top" secondItem="8" secondAttribute="top" constant="69" id="6PE-tK-KPF"/>
+                <constraint firstItem="103" firstAttribute="top" secondItem="99" secondAttribute="bottom" constant="8" symbolic="YES" id="A35-he-O2g"/>
+                <constraint firstItem="103" firstAttribute="trailing" secondItem="108" secondAttribute="trailing" id="FBX-hY-tdV"/>
+                <constraint firstItem="108" firstAttribute="top" secondItem="103" secondAttribute="bottom" constant="8" symbolic="YES" id="KRX-A5-gEJ"/>
+                <constraint firstItem="99" firstAttribute="trailing" secondItem="103" secondAttribute="trailing" id="Nce-Wj-sDd"/>
+                <constraint firstItem="99" firstAttribute="top" secondItem="8" secondAttribute="top" constant="100" id="ODc-n7-5pU"/>
+                <constraint firstItem="99" firstAttribute="leading" secondItem="103" secondAttribute="leading" id="PAS-LX-J7E"/>
+                <constraint firstItem="112" firstAttribute="trailing" secondItem="108" secondAttribute="trailing" id="QHw-23-h9N"/>
+                <constraint firstItem="112" firstAttribute="leading" secondItem="108" secondAttribute="leading" id="R9t-dS-z0P"/>
+                <constraint firstItem="103" firstAttribute="leading" secondItem="108" secondAttribute="leading" id="Ucy-QQ-q9b"/>
+                <constraint firstAttribute="trailing" secondItem="99" secondAttribute="trailing" constant="20" symbolic="YES" id="VIs-V7-sCe"/>
+                <constraint firstItem="jNk-yY-Faz" firstAttribute="leading" secondItem="112" secondAttribute="leading" id="Yhb-jc-agJ"/>
+                <constraint firstAttribute="centerX" secondItem="w2I-hi-eXx" secondAttribute="centerX" id="aRq-EM-Biq"/>
+                <constraint firstItem="jNk-yY-Faz" firstAttribute="trailing" secondItem="112" secondAttribute="trailing" id="qEN-zy-40z"/>
+                <constraint firstItem="112" firstAttribute="top" secondItem="108" secondAttribute="bottom" constant="8" symbolic="YES" id="xqN-zL-jvu"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <connections>
+                <outlet property="button1" destination="99" id="AbP-IN-OUI"/>
+                <outlet property="button2" destination="103" id="Vc4-Wt-tVw"/>
+                <outlet property="button3" destination="108" id="AFg-XC-G01"/>
+                <outlet property="button4" destination="112" id="tn8-eK-KTo"/>
+                <outlet property="button5" destination="jNk-yY-Faz" id="2KM-Pe-1dF"/>
+                <outlet property="segControl" destination="w2I-hi-eXx" id="ze6-r2-ISV"/>
+            </connections>
+        </view>
+    </objects>
+</document>

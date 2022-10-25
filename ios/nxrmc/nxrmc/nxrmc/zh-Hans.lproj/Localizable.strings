@@ -1,0 +1,361 @@
+/* 
+  Localizable.strings
+  nxrmc
+
+  Created by Kevin on 15/4/28.
+  Copyright (c) 2015年 nextlabs. All rights reserved.
+*/
+
+// Ipad FileList Title
+"IPAD_REPO_LIST_TITLE" = "SkyDRM";
+
+// Tabbar items title
+"TAB_BAR_FILES_TITLE"   = "主页";
+"TAB_BAR_ACCOUNT_TITLE" = "账号";
+"TAB_BAR_HELP_TITLE"    = "帮助";
+"TAB_BAR_FAV_TITLE"     = "收藏夹";
+"TAB_BAR_OFFLINE_TITLE" = "离线文件";
+
+// No Repo View Title
+"NO_REPO_TITLE"        = "NO Repositories Connected!";
+"NO_REPO_DETAIL"       = "Add repositories like Dropbox, OneDriver, etc \n to view your NXL Protected files here";
+"NO_REPO_BUTTON_TITLE" = " Add Repository ";
+
+// No Select Repo Warning
+"NO_REPO_SELECT_IPAD" = "您尚未选择云盘, \n可点击NO_REPO_SELECT_IPAD下拉菜单\n选择要显示的云盘。";
+"NO_FILE_IN_FOLDER"   = "空文件夹";
+
+// box buttons
+"ALERTVIEW_TITLE" = "SkyDRM";
+"BOX_OK"          = "确定";
+"BOX_DONE"        = "完成";
+"BOX_CANCEL"      = "取消";
+
+//network alert info
+"NETWORK_UNREACH_MESSAGE" = "Network connection is required to perform this operation";
+
+//User guide informaiton
+
+"USER_GUIDE_PAGE1TITLE1" = "Welcome to NextLabs Rights Management";
+"USER_GUIDE_PAGE1TITLE2" = "Access, view and share your documents easily";
+
+"USER_GUIDE_PAGE2TITLE1" = "Access documents at work or in the Cloud";
+"USER_GUIDE_PAGE2TITLE2" = "One-stop access to all of your documents";
+
+"USER_GUIDE_PAGE3TITLE1" = "View business and engineering documents";
+"USER_GUIDE_PAGE3TITLE2" = "View Office, PDF, 2D and 3D drawings";
+
+"USER_GUIDE_PAGE4TITLE1" = "Share documents securely";
+"USER_GUIDE_PAGE4TITLE2" = "Protect and share documents with anyone";
+
+// login page
+
+"SIGNINTITLE" = "Sign In";
+
+"TEXTFIELD_USERNAME_PLACEHOLDER" = "Please enter your name";
+"TEXTFIELD_DOMAIN_PLACEHOLDER"   = "Please enter the domain";
+"TEXTFIELD_RMSERVER_PLACEHOLDER" = "Please enter the rmserver";
+"TEXTFIELD_PASSWORD_PLACEHOLDER" = "Please enter your password";
+
+"ERROR_EMPTYUSERNAME" = "请输入用户名!";
+"ERROR_EMPTYPASSWORD" = "请输入密码!";
+"ERROR_EMPTYDOMAIN"   = "请输入域名!";
+"ERROR_EMPTYRMSERVER" = "请输入服务地址!";
+
+"ERROR_DOMAIN"   = "域名错误!";
+"ERROR_PASSWORD" = "用户名或密码错误!";
+"ERROR_UNKNOWN"  = "未知错误!";
+"ERROR_RMSERVER" = "服务地址输入错误!";
+
+//profile page.
+"SECTION_TITLE" = "PROFILE HISTORY";
+
+//user info page
+"ACCOUNTINFOTITLE"      = "账户信息";
+"ACCOUNTINFONAME"       = "用户名";
+"ACCOUNTINFOEMAIL"      = "邮箱";
+"ACCOUNTINFOTENANTID"   = "Tenant ID";
+
+// slide menu
+"SLIDEMENU_MYACCOUNT"      = "我的账号";
+"SLIDEMENU_HELP"           = "帮助";
+"SLIDEMENU_MYDOCUMENTS"    = "我的文档";
+"SLIDEMENU_OFFLINE"        = "我的离线文件";
+"SLIDEMENU_FAVORITE"       = "我的收藏夹";
+"SLIDEMENU_REPOSITORIES"   = "我的云盘";
+"SLIDEMENU_ADD_REPOSITORY" = "增加云盘";
+
+//right slide file info view
+"TITLE_DETAIL"        = "详细";
+"RIGHTSTITLE"         = "Rights";
+"RIGHTSSUBTITLE"      = "Read";
+"ACTION_SHARE"        = "分享";
+"ACTION_PROTECT"      = "保护";
+"ACTION_CLASSIFY"     = "重新分类";
+"INFO"                = "信息";
+"FILE_INFO_ACCOUNT"   = "账号";
+"FILE_INFO_DRIVETYPE" = "云盘类型";
+"FILE_INFO_LOCATION"  = "位置";
+"FILE_INFO_SIZE"      = "大小";
+"FILE_INFO_MODIFIED"  = "修改时间";
+
+"ALERT_MESSAGE_GET_RIGHTS_FAILED" = "无法获取文件权限";
+
+"PROTECTANDSHARE_OPERATION_FAILED" = "文件下载失败，无法进行此次操作，请稍候重试";
+
+//file Right
+"RIGHT_VIEW"     = "View";
+"RIGHT_EDIT"     = "Edit";
+"RIGHT_PRINT"    = "Print";
+"RIGHT_SHARE"    = "Sharing";
+"RIGHT_OVERLAY"  = "WaterMark";
+
+//adhoc share page;
+
+"Adhoc_Sharing_Title"  = "PROTECT AND SHARE";
+"Adhoc_Protect_Title" = "PROTECT";
+
+"Adhoc_RIGHT_ITEM_TITLE" = "分享";
+"Adhoc_FieldName" = "To:";
+"Adhoc_EmailInputPlaceHolder" = "请输入Email地址";
+"Adhoc_FilePath" = "Apply Digital Rights to:";
+"Adhoc_EmailItem" = "发邮件";
+"Adhoc_MoreItem" = "更多";
+"Adhoc_CancelItem" = "取消";
+"Adhoc_People" = "Share the file with:";
+"Adhoc_Can" = "and";
+
+"Adhoc_GET_NXL_INFO_FAILED" = "获取NXL文件信息失败";
+"Adhoc_SET_AD_POLICY_FAILED" = "将文件转换为NXL格式失败";
+"Adhoc_ENCRYPT_FILE_FAILED" = "文件加密失败";
+"Adhoc_AddPolicy_FAILED" = "Add file policy failed";
+"Adhoc_SET_EMAIL_INFO_ERROR" = "Email格式不正确";
+"Adhoc_SET_RIGHT_INFO_ERROR" = "没有选择权限";
+"Adhoc_UPLOAD_SHARING_INFO_ERROR" = "上传共享信息失败";
+
+//Profile page
+"SET_TITLE"       = "设 置";
+"ACCOUNT_TITLE"   = "我的账号";
+"ACCOUNT_SIGNOUT" = "退 出";
+"HELP_TITLE"      = "帮 助";
+
+//About Page view
+"VERSION" = "Version";
+
+"ACCOUNT_CONNECTED_SERVICES" = "绑定的云盘";
+"RMC_SERVER" = "rm_server";
+"RMC_SESSION_TIMEOUT" = "登录有效时间";
+"RMC_SESSION_TIMEOUT_INPUT_ZERO" = "登录有效时间不能为零";
+
+"DAY"       = "天";
+"DAYS"      = "天";
+"HOUR"      = "小时";
+"HOURS"     = "小时";
+"MINUTES"   = "分钟";
+"MINUTE"    = "分钟";
+
+"SESSION_NEW_DETAIL"    = "请输入有效时间（分钟）: ";
+"RMC_SERVER_NEW_DETAIL" = "Please enter your new rmc_server address: ";
+"CLEANCACHE"    = "清空缓存";
+"CACHEFILESIZE" = "缓存使用空间";
+"SIGNOUTALERTMESSAGE" = "确认要退出吗？";
+
+//custom filelist page
+"FAVORITE" = "收藏";
+"OFFLINE"  = "离线";
+"DRIVES"   = "云盘";
+"ITEMS"    = "项目";
+"ALL"      = "所有";
+
+//protect page
+"PROTECTERROR"                  = "保护失败";
+"PROTECTERROR_RENAME"           = "云盘已存在同名文件，请重命名该文件";
+"PROTECTERRORNOFILEEXIST"       = "保护失败，该文件不存在, 请稍后重试";
+"PROTECTERROR_UPLOAD_FAILED"    = "文件未能上传至云盘，保护文件失败";
+
+"PROTECTERROR_UPLOADING_FAILED" = "Upload failed";
+"PROTECT_UPLOADING"             = "Uploading...";
+"PROTECT_UPLOADING_SUCCESS"     = "Upload successfully";
+"PROTECT_SAVE_FAILED"           = "Save failed";
+
+// cloudservices page
+"CLOUDSERVICE_DROPBOX"          = "DropBox";
+"CLOUDSERVICE_SHAREPOINTONLINE" = "SharePoint Online";
+"CLOUDSERVICE_SHAREPOINT"       = "SharePoint";
+"CLOUDSERVICE_ONEDRIVE"         = "OneDrive";
+"CLOUDSERVICE_GOOGLEDRIVE"      = "GoogleDrive";
+"CLOUDSERVICE_iCloudDrive"      = "iCloud Drive";
+
+"ADD_A_SERVICE"           = "增加云盘";
+"CONNECT_A_CLOUD_SERVICE" = "增加一个云盘";
+"SYNC_REPO_INOF"        = "同步云盘信息";
+"NOT_SYNC_YET"          = "尚未进行过云盘同步";
+
+
+//dropbox error
+"ERROR_NOT_LINKIN_DROPBOX" = "Unlinked in Dropbox, please link in Dropbox";
+"DROPBOX_SIGNIN_ERROR"     = "Binding Dropbox failed, please try again later";
+
+//Google Drive
+"GOOGLEDRIVE_SIGNIN_ERROR" = "Binding GoogleDrive failed, please try again later";
+// Sharepoint
+"Sharepoint_SIGNIN_ERROR" = "Binding SharePoint failed, user name or password is invalid";
+"Sharepoint_SITE_URL_ERROR" = "Binding SharePoint failed, access to site url failed";
+//Sharepoint Online
+"SharepointOnline_SIGNIN_ERROR" = "Binding SharePoint Online failed, user name or password is invalid";
+"SharepointOnline_SITE_URL_ERROR" = "Binding SharePoint Online failed, access to site url failed";
+
+//One Drive error
+"ERROR_NOT_SIGNIN_ONEDRIVE" = "Can not login OneDrive, please check the network and try again";
+"ONEDRIVE_GETUSERINFO_FAIL" = "Binding OneDrive failed, please try again later";
+
+//help page
+"HELPITEM1"  = "Handbook";
+"HELPITEM2"  = "What's New";
+"ONLINEHELP" = "Online Support Forum";
+
+"HANDBOOKInfo_TITLE"     = "Handbook";
+"HANDBOOKInfo_RIGHTS"    = "No Rights";
+"HANDBOOKInfo_FILETYPES" = "Supported file types";
+"HANDBOOKInfo_INTEGRATE" = "Integrate dropbox";
+
+//file menu
+"FILEMENU_SHARE"     = "Share File";
+"FILEMENU_COPY"      = "Copy";
+"FILEMENU_PRINT"     = "Print";
+"FILEMENU_ATTRIBUTE" = "File Attribute";
+"FILEMENU_NIGHTMODE" = "Night Mode";
+
+//file attribute
+"Steward_DESC" = "Document steward has all rights";
+"Steward_DESC_DETAIL" = "As document steward, you have all rights. Here are the rights granted to other users";
+"FILEATTRIBUTE_ITEMTITLE1" = "File Properties";
+"FILEATTRIBUTE_ITEMTITLE2" = "Classification";
+"FILEATTRIBUTE_ITEMTITLE3" = "Rights";
+
+"FILEATTRIBUTE_SAVE"       = "Save";
+"FILEATTRIBUTE_RECLASSIFY" = "Reclassify";
+
+"FILEATTRIBUTE_NAME"       = "File Name";
+"FILEATTRIBUTE_Location"   = "Location";
+"FILEATTRIBUTE_TYPE"       = "File Type";
+"FILEATTRIBUTE_SIZE"       = "File Size";
+"FILEATTRIBUTE_MODIFYTIME" = "Modified";
+
+
+// connect service
+"SERVICE_CONNECT_ERROR" = "Connect service failed";
+
+// errors on authen cloud account
+"AUTHEN_ERROR"               = "Authenticate failed";
+"SHAREPOINT_SITE_EMPTYERROR" = "Type in sharepoint site url, please!";
+
+// file content view strings
+
+//rights warning
+"NO_ACCESS_RIGHT" = "You are not authorized to access the file";
+"NO_VIEW_RIGHT" = "You are not authorized to view the file";
+"NO_SHARE_RIGHT" = "You are not authorized to share the file";
+"NO_PRINTING_RIGHT" = "You are not authorized to print the file";
+
+"FAILD_GET_KEY_BLOB" = "Failed to get key blob";
+"FAILED_DECRYPT_NXL_FILE" = "Failed to decrypt file";
+"FAILED_GET_FILE_TAGS" = "Failed to get file tags";
+
+// hint user title and message
+"HINT_USER_MESSAGE"   = "我们目前还不支持这个文件类型";
+"HINT_USER_NO_LABELS" = "请检查RMS服务器是否配置了Labels";
+
+// hit user open file pdf in 3D or 2D viewer
+"HINT_USER_OPENPDF_MESSAGE"   = "Please select viewer to open this PDF file";
+"HINT_USER_OPENPDF_BUTTON_2D" = "2D";
+"HINT_USER_OPENPDF_BUTTON_3D" = "3D";
+
+// sort opt
+"SORT_OPT_NAME_ASC" = "Sort by Name";
+"SORT_OPT_NEWEST"   = "Sort by Date";
+"SORT_OPT_REPO"     = "Sort by Repository";
+
+// file content view alert view titile and message
+"ALERTVIEW_MESSAGE_LOADFAIL"            = "加载文件失败";
+"ALERTVIEW_MESSAGE_CONVERT_FILE_FAIL"   = "Convert file failed";
+"ALERTVIEW_MESSAGE_CANNOTOPENFILE"      = "请检查您的网络连接然后再试一下";
+"ALERTVIEW_MESSAGE_NOSUCHFILE"          = "这个文件已经被删除了，请返回";
+"ALERTVIEW_MESSAGE_DOWNLOADFAIL"        = "下载文件失败，请返回重新打开这个文件";
+"ALERTVIEW_MESSAGE_DOWNLOAD_CANCELED"   = "下载被取消";
+"ALERTVIEW_MESSAGE_DECRYPTFAIL"         = "解密失败";
+"ALERTVIEW_MESSAGE_GETFILE_FAIL"        = "获取文件和文件夹失败";
+"ALERTVIEW_MESSAGE_OPENTHIRDFILEFAILED" = "操作失败，请重试";
+"ALERTVIEW_MESSAGE_MEMORY_WARNING"      = "目前我们的APP不支持打开如此大的文件";
+"ALERTVIEW_MESSAGE_GETFILEEXTENSION_FAILED" = "获取文件类型失败";
+"ALERTVIEW_MESSAGE_PRINTING_NOT_SUPPOT" = "不支持该文件类型的打印";
+
+//MobileSurfaceView button title and error information
+//section 1
+"BUTTON_TITLE_1" = "SS";
+"BUTTON_TITLE_2" = "SM";
+"BUTTON_TITLE_3" = "HL";
+"BUTTON_TITLE_4" = "FR";
+"BUTTON_TITLE_5" = "";
+
+//section 2
+"BUTTON_TITLE_6"  = "X";
+"BUTTON_TITLE_7"  = "Y";
+"BUTTON_TITLE_8"  = "Z";
+"BUTTON_TITLE_9"  = "";
+"BUTTON_TITLE_10" = "";
+
+//alert view text
+"ALERTVIEW_MESSAGE_BINDFAIL" = "HPS App Init failed";
+
+// add service page
+"ALERTVIEW_MESSAGE_MORE_ONEDRIVE" = "我们目前只能绑定一个OneDrive账号，您可以先删除当前的OneDrive账号然后再重新绑定一个新的账号";
+
+// search bar
+"SEARCH_PLACE_HOLDER" = "Search";
+
+//operation status view, used to show status in content page. e.g: download or covert.
+"DOWNLOADINGFILE" = "Loading...";
+"CONVERTINGFILE"  = "Converting...";
+
+//localized error message
+"ERROR_ACCESS_UNAUTHORIZED_DESC"             = "Access repository failed, please rebind your repository and try again";
+"ERROR_NO_SUCH_FILE_DESC"                    = "Resource not exist or internal server error";
+"ERROR_AUTH_FAILED_DESC"                     = "User authentication failed";
+"ERROR_CONVERT_FILE_FAILED_DESC"             = "Convert file failed";
+"ERROR_CONVERTFILE_CHECKSUM_NOTMATCHED_DESC" = "Checksum not matched when convert file";
+"ERROR_NO_NETWORK_DESC"                      = "Network is not available";
+"ERROR_REPO_ACCOUNT_EXISTED"                 = "The repository account has already existed";
+"ERROR_ADD_REPO_ACCOUNT_DISPLAY_NAME_DUMPLICATE" = "The repository dispaly name duplicate";
+"ERROR_ADD_REPO_SYNC_RMS_ERROR"                   = "Error occur when sync add repository info with RMS";
+"ERROR_URL_TRANS_FAILED"                     = "The internet transfer data failed";
+"ERROR_SYNC_REPO_ACCOUNT_NOT_SAME_WITH_RMS"  = "The account you entered is different from RMS";
+"ERROR_DEL_REPO_SYNC_RMS_ERROR"  = "Error occur when sync delete repository info with RMS";
+"ERROR_UPDATE_REPO_SYNC_RMS_ERROR"  = "Error occur when update repository info with RMS";
+
+// Repository info
+"REPO_INFO_TITLE" = "云盘详情";
+"REPO_INFO" = "云盘信息";
+"SHAREPOINT_REPO_URL" = "Site URL";
+"REPO_TYPE" = "云盘类型";
+"USER_NAME" = "用户名";
+"EMAIL" = "Email";
+"TOTAL_SPACE" = "总容量";
+"USED_SPACE" = "已用容量";
+"LOCAL_USAGE" = "本地用量";
+"OFFLINE_SIZE" = "Offline文件用量";
+"CACHE_SIZE" = "Cache文件用量";
+"TOTAL_SIZE" = "总用量";
+"DELETE_REPO" = "删除云盘";
+"DELETE_CACEH_WARNING" = "您确认要删除Cache文件吗？";
+"DELETE_REPO_WARNING" = "您确定要删除该云盘吗？";
+"INPUT_REPO_NAME" = "请输入云盘别名";
+
+// Swipe to change file
+"SWIPE_NO_MORE_FILE_TO_SHOW" = "已没有更多的文件显示";
+
+// Config RMS ViewController
+"RESET_TO_DEFAULT_RMS" = "Reset";
+"RMS_CONFIG" = "RMS";
+"RMS_URL" = "RMS url";
+"TENANT_NAME" = "tenant name";

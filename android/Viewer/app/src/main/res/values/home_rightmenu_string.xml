@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_rightmenu_favorite">Favorite</string>
+    <string name="home_rightmenu_offline">Offline</string>
+    <string name="home_rightmenu_info">Info</string>
+    <string name="home_rightmenu_account">Account</string>
+    <string name="home_rightmenu_driveType">DriveType</string>
+    <string name="home_rightmenu_location">Location</string>
+    <string name="home_rightmenu_size">Size</string>
+    <string name="home_rightmenu_modified">Modified</string>
+    <string name="home_rightmenu_rights">Rights</string>
+    <string name="home_rightmenu_read">Read</string>
+    <string name="home_rightmenu_view">View</string>
+    <string name="home_rightmenu_reclassify">Reclassify</string>
+    <string name="home_rightmenu_classify">Classify</string>
+    <string name="home_rightmenu_share">Share</string>
+    <string name="home_rightmenu_protect">Protect</string>
+    <string name="home_rightmenu_copy">Copy</string>
+    <string name="home_rightmenu_send">Send</string>
+    <string name="home_rightinitial_download">Initial downloading&#8230;</string>
+</resources>

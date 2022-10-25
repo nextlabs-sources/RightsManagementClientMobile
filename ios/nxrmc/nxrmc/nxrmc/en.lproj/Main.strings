@@ -1,0 +1,198 @@
+
+/* Class = "UILabel"; text = "What's New"; ObjectID = "0cy-vP-7xI"; */
+"0cy-vP-7xI.text" = "What's New";
+
+/* Class = "UIButton"; normalTitle = "Add Account"; ObjectID = "1BE-Lh-FK6"; */
+"1BE-Lh-FK6.normalTitle" = "Add Account";
+
+/* Class = "UILabel"; text = "rm server Alert"; ObjectID = "519-qH-27U"; */
+"519-qH-27U.text" = "rm server Alert";
+
+/* Class = "UITextView"; text = "What's New\nVersion 1.1.0\n1.Update UI\n2.Add new function\n3.Fix some bugs\n4.Thank you"; ObjectID = "6Vd-1z-cZL"; */
+"6Vd-1z-cZL.text" = "What's New\nVersion 1.1.0\n1.Update UI\n2.Add new function\n3.Fix some bugs\n4.Thank you";
+
+/* Class = "UITextField"; placeholder = "USERNAME"; ObjectID = "6cg-IY-L1e"; */
+"6cg-IY-L1e.placeholder" = "USERNAME";
+
+/* Class = "UILabel"; text = "Handbook"; ObjectID = "6fr-4Z-0OA"; */
+"6fr-4Z-0OA.text" = "Handbook";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7Mn-vG-fZs"; */
+"7Mn-vG-fZs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "USERNAME"; ObjectID = "8sE-fx-NXe"; */
+"8sE-fx-NXe.text" = "USERNAME";
+
+/* Class = "UITextField"; placeholder = "RM SERVER"; ObjectID = "8tX-sE-Chu"; */
+"8tX-sE-Chu.placeholder" = "RM SERVER";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "ANa-OR-sbC"; */
+"ANa-OR-sbC.title" = "Master";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "AZ2-D8-nLB"; */
+"AZ2-D8-nLB.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "File Attribute"; ObjectID = "Aui-t0-lOK"; */
+"Aui-t0-lOK.text" = "File Attribute";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "DIp-dq-hjg"; */
+"DIp-dq-hjg.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "DLk-yJ-xgB"; */
+"DLk-yJ-xgB.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Add Account"; ObjectID = "Ect-Ef-D4b"; */
+"Ect-Ef-D4b.normalTitle" = "Add Account";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "Exb-NV-eqy"; */
+"Exb-NV-eqy.title" = "Detail";
+
+/* Class = "UITextField"; placeholder = "SharePointSiteURL"; ObjectID = "FRf-Cu-4eW"; */
+"FRf-Cu-4eW.placeholder" = "SharePointSiteURL";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "JlV-6v-aTk"; */
+"JlV-6v-aTk.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KLQ-8R-JiA"; */
+"KLQ-8R-JiA.text" = "Label";
+
+/* Class = "UILabel"; text = "Load Profile"; ObjectID = "LBO-V3-7lp"; */
+"LBO-V3-7lp.text" = "Load Profile";
+
+/* Class = "UILabel"; text = "NextLabs"; ObjectID = "LLg-d2-uTo"; */
+"LLg-d2-uTo.text" = "NextLabs";
+
+/* Class = "UIButton"; normalTitle = "Load profile from history"; ObjectID = "NTk-CU-Gro"; */
+"NTk-CU-Gro.normalTitle" = "Load profile from history";
+
+/* Class = "UIButton"; normalTitle = "Protect"; ObjectID = "OGm-u6-lvu"; */
+"OGm-u6-lvu.normalTitle" = "Protect";
+
+/* Class = "UILabel"; text = "Service Type"; ObjectID = "ONo-0W-5hT"; */
+"ONo-0W-5hT.text" = "Service Type";
+
+/* Class = "UILabel"; text = "user type"; ObjectID = "OXS-HD-dQg"; */
+"OXS-HD-dQg.text" = "user type";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "Oet-FU-cn1"; */
+"Oet-FU-cn1.text" = "Account";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "OhE-bq-ny3"; */
+"OhE-bq-ny3.text" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "OmR-xa-8ID"; */
+"OmR-xa-8ID.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "PAb-yA-kca"; */
+"PAb-yA-kca.text" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "V3o-fl-ugH"; */
+"V3o-fl-ugH.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "WbM-Yl-Dpl"; */
+"WbM-Yl-Dpl.normalTitle" = "LOG IN";
+
+/* Class = "UIButton"; normalTitle = "SIGN-IN"; ObjectID = "Wsg-gQ-2dO"; */
+"Wsg-gQ-2dO.normalTitle" = "SIGN-IN";
+
+/* Class = "UIViewController"; title = "Detail"; ObjectID = "WxA-WY-Pbu"; */
+"WxA-WY-Pbu.title" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "Xg5-PU-Qku"; */
+"Xg5-PU-Qku.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "YE9-AT-BWV"; */
+"YE9-AT-BWV.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "Yov-EV-dKh"; */
+"Yov-EV-dKh.text" = "Account";
+
+/* Class = "UITextField"; placeholder = "Domain\\User name"; ObjectID = "anh-r7-fn5"; */
+"anh-r7-fn5.placeholder" = "Domain\\User name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "azG-xU-jUg"; */
+"azG-xU-jUg.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "be4-Ez-PaD"; */
+"be4-Ez-PaD.normalTitle" = "Help";
+
+/* Class = "UILabel"; text = "DOMAIN"; ObjectID = "bsw-R3-sDT"; */
+"bsw-R3-sDT.text" = "DOMAIN";
+
+/* Class = "UILabel"; text = "Custom FileList Type"; ObjectID = "c0F-0E-Jzq"; */
+"c0F-0E-Jzq.text" = "Custom FileList Type";
+
+/* Class = "UILabel"; text = "UsernameAlert"; ObjectID = "cQB-xs-lbW"; */
+"cQB-xs-lbW.text" = "UsernameAlert";
+
+/* Class = "UITextField"; placeholder = "SharePointSiteURL"; ObjectID = "dKO-Ri-BlB"; */
+"dKO-Ri-BlB.placeholder" = "SharePointSiteURL";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "e4T-g3-6rH"; */
+"e4T-g3-6rH.normalTitle" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "eRc-Yh-JV2"; */
+"eRc-Yh-JV2.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Add A Service"; ObjectID = "g54-HJ-r0v"; */
+"g54-HJ-r0v.text" = "Add A Service";
+
+/* Class = "UILabel"; text = "Add a Service"; ObjectID = "gal-tk-0mo"; */
+"gal-tk-0mo.text" = "Add a Service";
+
+/* Class = "UINavigationItem"; title = "Master"; ObjectID = "giI-Xu-qEn"; */
+"giI-Xu-qEn.title" = "Master";
+
+/* Class = "UITextField"; placeholder = "Domain"; ObjectID = "lOw-9i-Etc"; */
+"lOw-9i-Etc.placeholder" = "Domain";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "lWP-s6-EOa"; */
+"lWP-s6-EOa.placeholder" = "PASSWORD";
+
+/* Class = "UILabel"; text = "Password Alert"; ObjectID = "lXD-ft-qJm"; */
+"lXD-ft-qJm.text" = "Password Alert";
+
+/* Class = "UILabel"; text = "File"; ObjectID = "oxA-IO-Ewk"; */
+"oxA-IO-Ewk.text" = "File";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "pTI-F2-SAV"; */
+"pTI-F2-SAV.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "pey-CG-1SN"; */
+"pey-CG-1SN.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Service Type"; ObjectID = "qMT-pL-BEl"; */
+"qMT-pL-BEl.text" = "Service Type";
+
+/* Class = "UIButton"; normalTitle = "..."; ObjectID = "rI6-Uk-Ge3"; */
+"rI6-Uk-Ge3.normalTitle" = "...";
+
+/* Class = "UILabel"; text = "DomainAlert"; ObjectID = "rSb-aw-VWu"; */
+"rSb-aw-VWu.text" = "DomainAlert";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "sAn-g2-q9H"; */
+"sAn-g2-q9H.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "sBh-eH-zj4"; */
+"sBh-eH-zj4.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "PASSWORD"; ObjectID = "thE-rD-WfE"; */
+"thE-rD-WfE.text" = "PASSWORD";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "tmL-t9-wNs"; */
+"tmL-t9-wNs.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "RM SERVER"; ObjectID = "uFE-1n-xCC"; */
+"uFE-1n-xCC.text" = "RM SERVER";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "uPG-H8-cY4"; */
+"uPG-H8-cY4.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "weB-hd-4tC"; */
+"weB-hd-4tC.text" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "zEq-wm-MXq"; */
+"zEq-wm-MXq.normalTitle" = "Help";
+
+/* Class = "UITextField"; placeholder = "Domain\\User name"; ObjectID = "zfa-cs-fvU"; */
+"zfa-cs-fvU.placeholder" = "Domain\\User name";

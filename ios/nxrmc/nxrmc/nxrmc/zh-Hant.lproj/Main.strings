@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Nextlabs Viewer"; ObjectID = "PAb-yA-kca"; */
+"PAb-yA-kca.text" = "Nextlabs Viewer";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "Zas-uH-eCl"; */
+"Zas-uH-eCl.normalTitle" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "Domain\\User Name"; ObjectID = "aZS-TU-ljE"; */
+"aZS-TU-ljE.placeholder" = "Domain\\User Name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "h5D-Vd-BAG"; */
+"h5D-Vd-BAG.placeholder" = "Password";
